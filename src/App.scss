@@ -1,0 +1,50 @@
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 570px 1fr;
+  grid-template-areas: "aside content";
+}
+
+// $color1:#4793AF;
+// $color2:#FFC470;
+// $color3:#DD5746;
+// $color4:#8B322C;
+// $color5:#FAF0E4;
+// $color6:#9BCDD2;
+// $color7:#FF8551;
+// $color8:#FFDEDE;
+
+
+//light
+// $color1:#A6D0DD;
+// $color2:#FFF9DE;
+// $color3:#FF6969;
+// $color4:#FFD3B0;
+// $color5:#A6D0DD;
+// $color6:#FFF9DE;
+// $color7:#FFD3B0;
+// $color8:#FF6969;
+
+
+$color1: #004225;
+$color2: #f5f5dc;
+$color3: #ffb000;
+$color4: #ffcf9d;
+
+$color5:#186F65;
+$color6:#B5CB99;
+$color7:#FCE09B;
+$color8:#B2533E;
+
+.login {
+  grid-area: aside;
+  background: $color1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  grid-area: content;
+  background: $color2;
+  padding: 60px;
+}

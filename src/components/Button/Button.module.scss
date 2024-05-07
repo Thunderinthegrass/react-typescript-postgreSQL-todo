@@ -1,0 +1,22 @@
+@import './../../App.scss';
+.button{
+  padding: 10px 15px;
+  border: 1px solid $color1;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 700;
+  background: transparent;
+  font-size: 18px;
+  background-color: transparent;
+  max-width: 200px;
+  width: 100%;
+  transition: .3s;
+  cursor: pointer;
+  box-shadow: none;
+  &:hover{
+    background: $color4;
+  }
+  &:focus{
+    background: $color3;
+  }
+}

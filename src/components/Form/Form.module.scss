@@ -1,0 +1,29 @@
+@import "./../../App.scss";
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  .title {
+    color: $color2;
+  }
+  .button {
+    padding: 5px 10px;
+    display: block;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: $color3;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: transparent;
+    &:hover {
+      color: $color2;
+      transform: scale(1.1);
+    }
+  }
+}

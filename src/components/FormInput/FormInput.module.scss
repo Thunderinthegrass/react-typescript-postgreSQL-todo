@@ -1,0 +1,16 @@
+@import './../../App';
+.input{
+  padding: 5px 15px;
+  background: transparent;
+  outline: none;
+  display: block;
+  width: 200px;
+  height: 40px;
+  border: 1px solid $color2;
+  border-radius: 3px;
+  font-size: 16px;
+  color: $color2;
+  &::placeholder{
+    color: $color2;
+  }
+}
